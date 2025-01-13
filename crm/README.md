@@ -33,11 +33,11 @@ django-admin startproject customer_management
 cd customer_management
 Create a new app for managing customers:
 
-bash
+```bash
 Copy code
 python manage.py startapp accounts
 Register the app in INSTALLED_APPS in the settings.py file:
-
+```
 python
 Copy code
 INSTALLED_APPS = [
